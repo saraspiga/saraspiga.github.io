@@ -1,0 +1,374 @@
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;400;600;800&family=PT+Sans:wght@400;700&display=swap');
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /* START CSS*/
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+    nav.menuHolder {
+        background: #EBDED7;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    li.voceMenu {
+        display: inline-block;
+        padding: 10px 28px;
+    }
+    
+    li.voceMenu a {
+        color: #222F29;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .logo {
+        width: auto;
+    }
+    
+    .menu {
+        width: auto;
+    }
+    
+    section.hero {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/backgroundHero.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .container.containerHero {
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 70px);
+    }
+    
+    h1.titoloHero {
+        color: white;
+        font-weight: bold;
+        font-size: 75px;
+    }
+    
+    p.paragrafoHero {
+        color: white;
+        font-size: 22px;
+        padding: 20px 0px 30px 0px;
+        line-height: 25px;
+    }
+    
+    .herotesti {
+        width: 45%;
+    }
+    
+    .showreel a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .sezione {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sectionpadding {
+        padding: 150px 0px;
+    }
+    
+    .bgrosa {
+        background-color: #EBDED7;
+    }
+    /*.duecolonne {
+    display: flex;
+    justify-content: center;
+}*/
+    
+    .container.containerchisiamo {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .titoloSezione {
+        width: 30%;
+    }
+    
+    .contenutoSezione {
+        width: 70%;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: justify;
+        margin-bottom: 17px;
+    }
+    
+    h2.titolosezione {
+        margin-bottom: 70px;
+    }
+    
+    .sottotitolo {
+        font-size: 20px;
+    }
+    
+    .pulsante a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .testiservizio {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 30px 0px;
+    }
+    
+    .servizi {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .servizio {
+        width: 20%;
+        margin-bottom: 20px;
+        /*margin-top: 80px;*/
+    }
+    
+    .iconaservizio {
+        width: 50%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .iconaservizio img {
+        width: auto;
+        max-height: 100px;
+    }
+    
+    .bgverde {
+        background-color: #B2C391;
+    }
+    
+    .testiservizio {
+        text-align: center;
+    }
+    
+    .sopratitolo {
+        text-align: center;
+        font-size: 27px;
+    }
+    
+    .containerFooter {
+        display: flex;
+    }
+    
+    .container.containerFooter {
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    .colonnaCta {
+        width: 50%;
+    }
+    
+    .colonnaContatti {
+        width: 50%;
+    }
+    
+    .bottoneCta {
+        background: #DC4D23;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    
+    .bottoneCta a {
+        margin: 0px;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.9px;
+        font-size: 30px;
+    }
+    
+    .siamocuriosi {
+        font-weight: bold;
+        font-size: 60px;
+        text-align: justify;
+        margin-bottom: 17px;
+    }
+    
+    .contattiFooter {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .contatti {
+        display: flex;
+        justify-content: flex-end;
+        width: auto;
+    }
+    
+    contatti.iconeContatti {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .iconeContatti img {
+        padding: 20px 10px;
+    }
